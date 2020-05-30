@@ -3,7 +3,7 @@ from proxypool.crawlers.base import BaseCrawler
 from lxml import etree
 
 BASE_URL = "http://www.xiladaili.com/"
-MAX_PAGE = 5
+MAX_PAGE = 10
 
 
 class XiladailiCrawler(BaseCrawler):

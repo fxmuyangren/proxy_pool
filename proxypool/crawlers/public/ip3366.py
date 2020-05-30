@@ -11,7 +11,7 @@ class IP3366Crawler(BaseCrawler):
     """
     ip3366 crawler, http://www.ip3366.net/
     """
-    urls = [BASE_URL.format(page=i) for i in range(1, 8)]
+    urls = [BASE_URL.format(page=i) for i in range(1, 11)]
     
     def parse(self, html):
         """
